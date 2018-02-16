@@ -10,8 +10,9 @@
 		FD8E76B62035F9AF00D7638C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E76B52035F9AF00D7638C /* AppDelegate.swift */; };
 		FD8E76B82035F9AF00D7638C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E76B72035F9AF00D7638C /* ViewController.swift */; };
 		FD8E76BB2035F9AF00D7638C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8E76B92035F9AF00D7638C /* Main.storyboard */; };
-		FD8E76BD2035F9AF00D7638C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8E76BC2035F9AF00D7638C /* Assets.xcassets */; };
 		FD8E76C02035F9AF00D7638C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8E76BE2035F9AF00D7638C /* LaunchScreen.storyboard */; };
+		FD8E76C82035FA3D00D7638C /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FD8E76C72035FA3D00D7638C /* Inceptionv3.mlmodel */; };
+		FD9F82292036E10B00E7F64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9F82282036E10B00E7F64E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +20,10 @@
 		FD8E76B52035F9AF00D7638C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD8E76B72035F9AF00D7638C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD8E76BA2035F9AF00D7638C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FD8E76BC2035F9AF00D7638C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD8E76BF2035F9AF00D7638C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD8E76C12035F9AF00D7638C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD8E76C72035FA3D00D7638C /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		FD9F82282036E10B00E7F64E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 				FD8E76B52035F9AF00D7638C /* AppDelegate.swift */,
 				FD8E76B72035F9AF00D7638C /* ViewController.swift */,
 				FD8E76B92035F9AF00D7638C /* Main.storyboard */,
-				FD8E76BC2035F9AF00D7638C /* Assets.xcassets */,
 				FD8E76BE2035F9AF00D7638C /* LaunchScreen.storyboard */,
+				FD9F82282036E10B00E7F64E /* Assets.xcassets */,
 				FD8E76C12035F9AF00D7638C /* Info.plist */,
+				FD8E76C72035FA3D00D7638C /* Inceptionv3.mlmodel */,
 			);
 			path = "hotdog-not-hotdog";
 			sourceTree = "<group>";
@@ -124,7 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD8E76C02035F9AF00D7638C /* LaunchScreen.storyboard in Resources */,
-				FD8E76BD2035F9AF00D7638C /* Assets.xcassets in Resources */,
+				FD9F82292036E10B00E7F64E /* Assets.xcassets in Resources */,
 				FD8E76BB2035F9AF00D7638C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD8E76B82035F9AF00D7638C /* ViewController.swift in Sources */,
+				FD8E76C82035FA3D00D7638C /* Inceptionv3.mlmodel in Sources */,
 				FD8E76B62035F9AF00D7638C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
